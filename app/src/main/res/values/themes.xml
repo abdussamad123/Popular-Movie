@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PopularMovie" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/color_primary_80</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorAccent">#000000</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="autoCompleteTextViewStyle">@style/Platform.MaterialComponents.Light</item>
+        <item name="android:statusBarColor">@color/color_primary_80</item>
+
+    </style>
+
+    <style name="Theme.PopularMovie" parent="Base.Theme.PopularMovie" />
+    <style name="theme_bottom_sheet"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/style_app_model</item>
+    </style>
+
+
+
+    <style name="style_app_model"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_shape_upper_radius_40</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.App.BottomSheetDialog</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ModalBottomSheetDialog</item>
+    </style>
+
+    <style name="ModalBottomSheetDialog" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@color/color_bg_bs</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.LargeComponent</item>
+    </style>
+
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dp_40</item>
+    </style>
+
+</resources>

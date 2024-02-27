@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="popular_movie">Popular Movies</string>
+    <string name="filter_by">Filter By :</string>
+    <string name="sort_by">Sort By :</string>
+    <string name="movie_image">MovieImage</string>
+    <string name="evryone_can_watch">Everyone</string>
+    <string name="only_for_adult">Only for adult</string>
+    <string name="no_more_data">No more data...</string>
+</resources>

@@ -1,0 +1,56 @@
+*.iml
+.gradle
+.idea
+/.idea
+.idea/
+/local.properties
+.DS_Store
+/build
+/release
+captures/
+.externalNativeBuild
+.cxx
+keys.properties
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+local.properties
+Thumbs.db
+build/
+.navigation
+output.json
+.idea/gradle.xml
+.idea/misc.xml
+.idea/vcs.xml
+
+# Node artifact files
+node_modules/
+dist/
+
+# Compiled Java class files
+*.class
+
+# Compiled Python bytecode
+*.py[cod]
+
+# Log files
+*.log
+
+# Package files
+*.jar
+
+# Maven
+target/
+
+# JetBrains IDE
+.idea/
+
+/.gradle
+/gradlew.bat
+/gradlew
+/keys.properties
+/app/google-services.json
