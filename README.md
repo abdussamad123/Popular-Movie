@@ -9,7 +9,7 @@
 + Windows, Linux, MacOS.
 
 ## Project Description
-This is an popular movie app which show the details of the movies and user can scroll the movies.
+This is an popular movie app which show the details of the movies and user can scroll the movies from cache(Room) and remote.
 
 ## Note
  APK is added in APK folder
