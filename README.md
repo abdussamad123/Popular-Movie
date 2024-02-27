@@ -11,6 +11,8 @@
 ## Project Description
 This is an popular movie app which show the details of the movies and user can scroll the movies.
 
+## Note
+ APK is added in APK folder
 
 ## How to Choose Build Environment
 
